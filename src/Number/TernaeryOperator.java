@@ -7,5 +7,7 @@ public class TernaeryOperator {
 
 		boolean s = (a > b) ? (true) : (false);
 		System.out.println(s);
+	
+		
 	}
 }

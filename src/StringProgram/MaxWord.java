@@ -1,10 +1,6 @@
-package Array;
+package StringProgram;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Map.Entry;
-
-public class A1 {
+public class MaxWord {
 	public static void main(String[] args) {
 		String s = "abd nhb vfd abd nhb vfd";
 		String[] arr=s.split(" ");
