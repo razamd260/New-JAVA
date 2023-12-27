@@ -1,24 +1,23 @@
 package Array;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Map.Entry;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class A1 {
 	public static void main(String[] args) {
-		String s = "abd nhb vfd abd nhb vfd";
-		String[] arr=s.split(" ");
-		//int[] arr= {1,3,5,6,1,2};
-		//char[] arr = s.toCharArray();
-		  String max=arr[0];
-		  for(int i=0;i<arr.length;i++) {
-			  if(arr[i].compareTo(arr[i])!=' ') {
-				  if(max.compareTo(arr[i])<0) {
-					  max=arr[i];
-				  }
-			  }
-			 
-		  }
-		System.out.println(max);
+		 String s="zkjdja chennai zkjdja chaennai chnnai";
+         char[] arr=s.toCharArray();
+       
+         TreeSet<Character> a1=new TreeSet<Character>();
+         for(char ch:arr){
+             a1.add(ch);
+         }
+      for(char chh:a1){
+          System.out.println(chh);
+      }
+    
 	}
 }

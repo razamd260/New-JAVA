@@ -17,5 +17,6 @@ public class FindDuplicateLoop {
     	   System.out.println(arr[i]);
        }
        }
+      
 	}
 }
