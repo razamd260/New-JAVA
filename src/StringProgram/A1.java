@@ -1,13 +1,15 @@
 package StringProgram;
 
+import java.util.Arrays;
+
 public class A1 {
 	public static void main(String[] args) {
-        String s="noushad";
-        StringBuilder result=new StringBuilder();
-        char[] ch=s.toCharArray();
-        for(int i=ch.length-1;i>=0;i--) {
-        	result.append(ch[i]);
-        }
-	System.out.println(result);
+		  String[] s={"bhd","mn","mnhbg"};
+		  Arrays.sort(s);
+	        for(String as:s){
+	            System.out.println(as);
+	        }
+	        Object obj=(Object)s;
+	        
 	}
 }

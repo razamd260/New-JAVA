@@ -11,5 +11,6 @@ public class SortingCharacterFunction {
 	for(char c:ch) {
 		System.out.println(c);//one by one
 	}
+
 	}
 }

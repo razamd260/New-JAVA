@@ -18,3 +18,4 @@ public class MaxWord {
 		System.out.println(max);
 	}
 }
+//paira na gal mere wasdi rhe 
