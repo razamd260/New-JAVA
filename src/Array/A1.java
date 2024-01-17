@@ -8,16 +8,24 @@ import java.util.TreeSet;
 
 public class A1 {
 	public static void main(String[] args) {
-		 String s="zkjdja chennai zkjdja chaennai chnnai";
+		 String s="ACD";
          char[] arr=s.toCharArray();
        
          TreeSet<Character> a1=new TreeSet<Character>();
-         for(char ch:arr){
-             a1.add(ch);
+         for(char ch:arr) {
+        	 a1.add(ch);
+        	 
          }
-      for(char chh:a1){
-          System.out.println(chh);
-      }
-    
+      int n=arr[arr.length-1];
+      System.out.println(n);
+      
+         for(int i=65;i<=90;i++) {
+        	char c=(char)i;
+        	if(!a1.contains(c)) {
+        		System.out.println(c);
+        	}
+        	
+         }
+         
 	}
 }

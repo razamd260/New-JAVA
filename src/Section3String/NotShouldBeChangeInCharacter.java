@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class NotShouldBeChangeInCharacter {
   public static void main(String[] args) {
-	String s="123";
+	String s="426";
 	char[] ch=s.toCharArray();
 	Set<Character> a1=new HashSet<Character>();
 	for(char c:ch) {
@@ -18,7 +18,7 @@ public class NotShouldBeChangeInCharacter {
 	   int n = Integer.parseInt(String.valueOf(c));
       // int n = Character.getNumericValue(c);
 	   System.out.println(n/2);
-	   n=0;
+	   
    }
   }
 }

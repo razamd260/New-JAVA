@@ -3,18 +3,17 @@ package Section3String;
 import org.junit.jupiter.api.Test;
 
 public class Object {
-
+	int n=10;
 	public static void main(String[] args) {
-
-		Object obj = new Object();
+        Object obj = new Object();
+		System.out.println(obj);
 		System.out.println(obj.toString());
 		System.out.println(obj.hashCode());
-		Object obj1 = new Object();
-		System.out.println(obj1.toString());
-		System.out.println(obj1.equals(obj1));
-
+        System.out.println(obj.equals(obj));
+        System.gc();
 	}
 
+   
 	public String toString() {
 		return "Md";
 	}
@@ -23,7 +22,7 @@ public class Object {
 		return 1234;
 	}
 
-	public boolean equals(Object obj1) {
+	public boolean equals() {
 		return true;
 	}
 }

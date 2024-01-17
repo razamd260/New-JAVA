@@ -7,7 +7,9 @@ public class Addition {
 		Map<Integer,String> map = new HashMap<>();
 		map.put(1, "SIKANDER");
 		map.put(new Integer(2), "AKBER");
-		map.put(3, new String("AZAD"));
+		map.put(null, new String("AZAD"));
+		map.put(null, null);
+		map.put(null, new String("AZAD"));
 		
 		for (Map.Entry<Integer, String> e : map.entrySet()) {
 			  System.out.println(e.getKey() + " : "

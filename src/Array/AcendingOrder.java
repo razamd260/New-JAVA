@@ -21,7 +21,7 @@ public class AcendingOrder {
 			a1.add(array);
 		}
 	Collections.sort(a1);
-
+     
 	System.out.println(a1);
 	TreeSet<Integer> a2=new TreeSet<Integer>();
 	for(int i:arr3) {

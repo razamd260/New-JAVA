@@ -11,7 +11,7 @@ public class TreeMap1 {
 		map.put(1,"MD SIKANDER");
 		map.put(new Integer(2), "MD AKBER");
 		map.put(new Integer(6), "NUll");
-		map.put(6, new String("MD NOUSHAD"));
+		map.put(2, null);
 		for (Map.Entry<Integer, String> e : map.entrySet()) {
 			  System.out.println(e.getKey() + " : "
 	                  + e.getValue()); 
