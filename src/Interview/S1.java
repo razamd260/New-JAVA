@@ -14,7 +14,7 @@ public class S1 {
     		 }
     		System.out.println(s1+" : "+result);
     	}
- 
+
 
 }
 }

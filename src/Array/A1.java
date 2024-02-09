@@ -8,24 +8,45 @@ import java.util.TreeSet;
 
 public class A1 {
 	public static void main(String[] args) {
-		 String s="ACD";
-         char[] arr=s.toCharArray();
-       
-         TreeSet<Character> a1=new TreeSet<Character>();
-         for(char ch:arr) {
-        	 a1.add(ch);
-        	 
-         }
-      int n=arr[arr.length-1];
-      System.out.println(n);
-      
-         for(int i=65;i<=90;i++) {
-        	char c=(char)i;
-        	if(!a1.contains(c)) {
-        		System.out.println(c);
-        	}
-        	
-         }
-         
+	
+		String s="Hello World";// output Heggi Wirgd
+		String temp=s;
+		int Originalnum=temp.length();
+		s=s.replace("l", "g");
+		s=s.replace("o", "i");
+		int final1=s.length();
+		//System.out.println(s);
+		s=s.concat(" "+temp);
+		System.out.println(s);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*int[] arr= {2,5,3,8};
+		int index=0;
+		for(int n:arr) {
+			if(n!=3) {
+				arr[index++]=n;
+			    }
+		   }
+		for(int i=index;i<arr.length;i++) {		
+				arr[index++]=3;
+		}
+         System.out.println(Arrays.toString(arr));*/
 	}
 }

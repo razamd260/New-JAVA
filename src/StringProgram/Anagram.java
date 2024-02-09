@@ -9,6 +9,7 @@ public class Anagram {
       //if these strings are equal then anagram
       char[] arr1=s1.toCharArray();
       char[] arr2=s2.toCharArray();
+      
       Arrays.sort(arr1);
       Arrays.sort(arr2);
       String actual=String.valueOf(arr1);

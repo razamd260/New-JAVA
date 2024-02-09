@@ -18,5 +18,9 @@ public class ReverseStringFunction1 {
 		build.append(c1);
 	}
     System.out.println(build);
+    
+    StringBuilder result=new StringBuilder(s);
+    result.reverse().toString();
+    System.out.println(result);
     }
 }

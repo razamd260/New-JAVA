@@ -6,18 +6,20 @@ public class SortingByLength {
 	public static void main(String[] args) {
 		String s="nhdd bgd az xsrty cdmfbdjs";
 		String[] arr=s.split(" ");
+		String temp="";
 		int[] arr1 =new int[arr.length];
 	  for(int i=0;i<arr.length;i++) {
-		  arr1[i]=arr[i].length();
+		   for(int j=i+1;j<arr.length;j++) {
+			   if(arr[i].length()>arr[j].length()) {
+				   temp=arr[i];
+				   arr[i]=arr[j];
+				   arr[j]=temp;
+			   }
+		   }
 	  }
-	  Arrays.sort(arr);
-	 Arrays.sort(arr1);
-	 for(int n:arr1) {
-		 System.out.println(n);
-	 }
-
-     for(String s1:arr) {
-    	 System.out.println(s1);
-     }
+	  for(String str:arr) {
+		  System.out.println(str);
+	  }
+	 
 	}
 }
